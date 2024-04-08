@@ -24,7 +24,7 @@ cursor = connection.cursor()
 
 # create table
 
-'''
+
 cursor.execute("""CREATE TABLE IF NOT EXISTS contacts (
               first_name text,
               last_name text,
@@ -32,7 +32,6 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS contacts (
               birthday text)
                
     """)
-'''
 
 
 # create submit function
